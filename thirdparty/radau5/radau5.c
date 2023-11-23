@@ -369,7 +369,7 @@ L10:
 		/* --- JACOBIAN IS FULL */
 		for (i = 1; i <= n; ++i) {
 			ysafe = y[i];
-			delt = radau_max(sqrt(rmem->input->uround) * pow(2, -9), sqrt(rmem->input->uround * radau5_abs(ysafe)));
+			delt = radau_max(sqrt(rmem->input->uround) * pow(2, -8), sqrt(rmem->input->uround * radau5_abs(ysafe)));
 			y[i] = ysafe + delt;
 			ier = (*fcn)(n, *x, &y[1], &cont[1], fcn_EXT);
 			if (ier != RADAU_OK) {
