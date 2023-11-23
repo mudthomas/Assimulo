@@ -1,3 +1,8 @@
+This is a fork of Assimulo as maintained by Modelon. 
+This fork contains improvements to the ODE solver Radau5 that will be presented as part of a Master Thesis by Thomas Renström at Lunds University.
+
+What follows is the original readme from [Modelon](https://github.com/modelon-community/Assimulo).
+
 About
 -------------------
 
